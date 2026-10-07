@@ -1,0 +1,366 @@
+id	section	title	description
+1	1	GDP Growth Dashboard	Interactive dashboard comparing GDP growth across countries and years.
+2	1	Inflation Tracker	Track CPI and identify which categories contribute most to inflation.
+3	1	Unemployment Visualizer	Explore unemployment trends by country, age, gender, and education.
+4	1	Gini Calculator	Calculate and visualize income inequality from distribution data.
+5	1	Cost-of-Living Index	Compare the cost of everyday goods and services between cities.
+6	1	Purchasing Power Explorer	Show how much different currencies can actually buy.
+7	1	Interest Rate Explorer	Visualize central-bank rates alongside inflation and economic growth.
+8	1	Currency Volatility Analyzer	Analyze exchange-rate fluctuations and identify periods of instability.
+9	1	Trade Balance Visualizer	Show imports, exports, trade partners, and trade deficits/surpluses.
+10	1	Government Spending Explorer	Break down government expenditure by sector and year.
+11	1	National Debt Dashboard	Compare government debt relative to GDP and revenue.
+12	1	GDP-per-Capita Explorer	Compare living standards using GDP per capita and related indicators.
+13	1	Productivity Analyzer	Compare output per worker/hour across countries and industries.
+14	1	Economic Growth Heatmap	Create a world map showing historical economic growth.
+15	1	Inflation vs Wages	Investigate whether wages keep pace with inflation.
+16	1	Housing Affordability Index	Compare house prices with household incomes.
+17	1	Rent-to-Income Analyzer	Calculate how much income households spend on rent.
+18	1	Food Inflation Tracker	Track food-price changes and identify major contributors.
+19	1	Energy Price Analyzer	Study electricity/fuel prices alongside economic indicators.
+20	1	Commodity Dashboard	Track oil, metals, food and other commodity prices.
+21	1	Market Sentiment Dashboard	Combine market data and news sentiment.
+22	1	Economic Calendar	Create a searchable calendar of major economic releases.
+23	1	Recession Detector	Use economic indicators to identify historical recession periods.
+24	1	Inflation Forecasting	Train a time-series model to estimate future inflation.
+25	1	GDP Forecasting	Predict GDP growth using historical macroeconomic indicators.
+26	1	Unemployment Forecast	Predict unemployment using economic variables.
+27	1	Currency Forecasting	Experiment with models predicting exchange-rate movements.
+28	1	Housing Price Predictor	Predict housing prices using location and economic variables.
+29	1	Wage Predictor	Estimate wages from education, experience, industry and geography.
+30	1	Economic Correlation Engine	Automatically find relationships between economic indicators.
+31	1	Recession Probability Model	Estimate the probability of an economy entering recession.
+32	1	Economic Similarity Finder	Find countries whose economic structures resemble each other.
+33	1	Country Economic Ranking	Build customizable rankings based on user-selected metrics.
+34	1	Development Index Builder	Build your own HDI-like index from socioeconomic variables.
+35	1	Inequality Simulator	Simulate how income distributions change under different conditions.
+36	1	Income Distribution Simulator	Generate synthetic populations and study income distributions.
+37	1	Wealth Distribution Simulator	Model how wealth accumulates and spreads through a population.
+38	1	Tax Revenue Simulator	Estimate government revenue under different tax structures.
+39	1	Government Budget Simulator	Allocate a fixed government budget between competing priorities.
+40	1	Minimum-Wage Simulator	Model potential effects of changing minimum wages.
+41	1	UBI Simulator	Simulate universal basic income under different funding mechanisms.
+42	1	Subsidy Simulator	Model how subsidies affect consumers, producers and government spending.
+43	1	Tariff Simulator	Explore how tariffs affect prices, trade and welfare.
+44	1	Trade-War Simulator	Model countries imposing tariffs and retaliatory tariffs.
+45	1	Economic Mobility Simulator	Simulate how individuals move between income classes.
+46	1	Macroeconomic Agent Simulator	Build agents representing households, firms and governments.
+47	1	Economic Shock Model	Simulate how shocks propagate through an economy.
+48	1	AI Recession Warning System	Use ML to detect combinations of indicators associated with recessions.
+49	1	Counterfactual Economy	Estimate what might happen under alternative economic policies.
+50	1	PolicySim	Full platform for experimenting with economic policies and measuring trade-offs.
+51	2	Election Explorer	Explore historical election results interactively.
+52	2	Voter Turnout Dashboard	Analyze turnout across elections and demographics.
+53	2	Party Comparison Tool	Compare parties based on policy positions.
+54	2	Election Map Generator	Generate interactive election maps.
+55	2	Constituency Analyzer	Analyze voting patterns at constituency level.
+56	2	Voting-Age Explorer	Map voting-age populations across regions.
+57	2	Demographic Voting Dashboard	Study relationships between demographics and voting.
+58	2	Political Donations Explorer	Analyze campaign contributions.
+59	2	Campaign Spending Visualizer	Compare campaign expenditure and election outcomes.
+60	2	Parliament Attendance Tracker	Analyze representative attendance.
+61	2	Parliamentary Voting Explorer	Explore how representatives vote on legislation.
+62	2	Bill Tracker	Track bills through different stages of legislation.
+63	2	Coalition Visualizer	Visualize political coalitions and alliances.
+64	2	Political Timeline	Build interactive timelines of political events.
+65	2	Speech Word Analyzer	Analyze vocabulary and rhetoric in political speeches.
+66	2	Election Swing Calculator	Calculate seat changes under different vote swings.
+67	2	Electoral System Simulator	Compare different voting systems using identical votes.
+68	2	FPTP Simulator	Demonstrate how first-past-the-post converts votes into seats.
+69	2	Ranked-Choice Simulator	Simulate ranked-choice elections.
+70	2	PR Simulator	Explore proportional representation.
+71	2	Gerrymandering Visualizer	Demonstrate how district boundaries can affect representation.
+72	2	Coalition Formation Simulator	Find possible governing coalitions after elections.
+73	2	Turnout Predictor	Predict turnout from demographic and historical variables.
+74	2	Election Simulator	Generate election outcomes under different assumptions.
+75	2	Poll Aggregator	Combine polling results using transparent weighting methods.
+76	2	Polling Error Analyzer	Study historical polling misses.
+77	2	Polarization Index	Quantify ideological distance between groups.
+78	2	Political Ideology Classifier	Classify political documents based on policy positions.
+79	2	Party Similarity Engine	Calculate similarity between political parties.
+80	2	Politician Similarity Engine	Compare politicians based on voting records.
+81	2	Legislative Network Graph	Visualize relationships between legislators and bills.
+82	2	Political Donation Network	Map connections between donors and politicians.
+83	2	Lobbying Network	Explore relationships between companies, lobbyists and policymakers.
+84	2	Political Participation Predictor	Predict likelihood of political participation.
+85	2	Political Trust Analyzer	Study what factors correlate with trust in institutions.
+86	2	Election Forecasting Model	Build a transparent statistical election forecast.
+87	2	Multi-Party Election Simulator	Model elections involving many competing parties.
+88	2	AI Gerrymandering Detector	Detect suspicious districting patterns.
+89	2	Coalition Prediction Model	Predict likely coalitions using historical relationships.
+90	2	Voter Behavior Model	Model how demographics and issues influence voting.
+91	2	Campaign Strategy Simulator	Let simulated campaigns allocate limited resources.
+92	2	Political Influence Network	Model how organizations influence political actors.
+93	2	Electoral Optimization Engine	Compare electoral systems against fairness criteria.
+94	2	Political Stability Model	Estimate political instability from socioeconomic indicators.
+95	2	Democracy Health Index	Build a transparent composite measure of democratic institutions.
+96	2	Polarization Forecast	Predict future polarization from historical trends.
+97	2	Constitutional Analyzer	Use NLP to compare constitutional structures.
+98	2	Global Democracy Explorer	Compare democratic institutions internationally.
+99	2	AI Democracy Simulator	Simulate voters, parties, media and elections.
+100	2	Computational Political Science Lab	Platform combining political datasets, models and experiments.
+101	3	Political Sentiment Analyzer	Analyze sentiment in political speeches.
+102	3	Policy Summarizer	Automatically summarize long policy documents.
+103	3	Debate Analyzer	Identify arguments and counterarguments in debates.
+104	3	Government Classifier	Categorize government documents by topic.
+105	3	Political News Classifier	Categorize political news articles.
+106	3	Economic News Classifier	Classify economic news into topics.
+107	3	Policy Keyword Extractor	Extract important concepts from policies.
+108	3	Political Claim Extractor	Identify factual claims in political text.
+109	3	Economic Claim Extractor	Extract economic assertions for later verification.
+110	3	Legislative Search Engine	Search thousands of bills semantically.
+111	3	Speech Topic Model	Discover hidden themes in political speeches.
+112	3	Parliamentary NLP	Analyze large collections of parliamentary transcripts.
+113	3	Policy Similarity Engine	Find similar policies across countries.
+114	3	Manifesto Comparator	Compare election manifestos automatically.
+115	3	Policy Embedding Map	Map policies into a semantic space.
+116	3	Politician Embedding Map	Represent politicians using their statements/votes.
+117	3	Party Ideology Embeddings	Learn ideological relationships from political text.
+118	3	Economic News Topics	Discover dominant economic narratives.
+119	3	Political Rhetoric Classifier	Identify rhetorical strategies.
+120	3	Propaganda Classifier	Detect predefined propaganda techniques.
+121	3	Political Framing Detector	Detect how the same issue is framed differently.
+122	3	Policy Contradiction Detector	Find potentially conflicting policy statements.
+123	3	Claim Verification Tool	Retrieve evidence relevant to political claims.
+124	3	Economic Fact Checker	Check economic claims against datasets.
+125	3	AI Policy Assistant	Help researchers navigate policy documents.
+126	3	Legislative Q&A	Ask questions over a corpus of bills.
+127	3	Government RAG	Build a retrieval system over government data.
+128	3	Parliament RAG	Query parliamentary debates and records.
+129	3	Constitution Assistant	Search and explain constitutional provisions.
+130	3	Treaty Assistant	Search and compare international treaties.
+131	3	Political Bias Benchmark	Test AI models for political bias.
+132	3	AI Neutrality Tester	Test whether AI responses change with political framing.
+133	3	Framing Sensitivity Benchmark	Measure how wording affects AI outputs.
+134	3	Political Persuasion Benchmark	Study whether AI-generated arguments change simulated opinions.
+135	3	AI Policy Critic	Have AI identify weaknesses in policy proposals.
+136	3	AI Policy Auditor	Check policies for evidence, contradictions and assumptions.
+137	3	Legislative Contradiction AI	Search large legislation corpora for conflicts.
+138	3	Constitutional Reasoning Benchmark	Evaluate AI on constitutional questions.
+139	3	Economic Reasoning Benchmark	Test AI on economics problems.
+140	3	Political Argument Evaluator	Evaluate argument structure and evidence.
+141	3	AI Debate Judge	Score debates according to transparent criteria.
+142	3	Argument Mapper	Convert debates into structured argument graphs.
+143	3	Misinformation Detector	Identify potentially misleading political claims.
+144	3	Propaganda Detector	Detect manipulative communication techniques.
+145	3	Deepfake Benchmark	Build a benchmark for political deepfake detection.
+146	3	Government Accountability AI	Track promises against subsequent actions.
+147	3	Policy Recommendation Engine	Recommend policies based on explicit objectives.
+148	3	Public Consultation Analyzer	Analyze thousands of public submissions.
+149	3	AI Governance Lab	Experimental platform for evaluating AI governance questions.
+150	3	PPE-AI Benchmark	Unified benchmark for AI on politics, economics and philosophy.
+151	4	Utilitarian Calculator	Compare choices using estimated aggregate welfare.
+152	4	Rawlsian Simulator	Explore policy through a maximin framework.
+153	4	Libertarian Simulator	Explore outcomes under minimal redistribution.
+154	4	Ethical Dilemma Database	Search and categorize philosophical dilemmas.
+155	4	Argument Mapper	Visualize premises, conclusions and objections.
+156	4	Moral Philosophy Quiz	Identify philosophical positions through scenarios.
+157	4	Philosophy Search Engine	Search philosophical texts semantically.
+158	4	Philosopher Comparator	Compare thinkers by philosophical positions.
+159	4	Ethical Theory Matrix	Compare how ethical systems treat the same problem.
+160	4	Moral Argument Visualizer	Turn arguments into interactive graphs.
+161	4	Trolley Simulator	Explore variations of trolley-style dilemmas.
+162	4	AI Ethics Simulator	Compare AI decisions under different ethical frameworks.
+163	4	Welfare Optimizer	Optimize aggregate welfare under constraints.
+164	4	Justice Optimizer	Optimize outcomes according to different justice criteria.
+165	4	Efficiency vs Justice	Visualize trade-offs between efficiency and distribution.
+166	4	Freedom vs Security	Model competing policy objectives.
+167	4	Equality vs Growth	Explore policy trade-offs between redistribution and growth.
+168	4	Privacy vs Security	Model competing social objectives.
+169	4	Individual vs Collective Welfare	Simulate conflicts between individual and collective interests.
+170	4	Moral Uncertainty Simulator	Make decisions when you don't know which ethical theory is correct.
+171	4	Philosophical Argument Graph	Build networks of philosophical arguments.
+172	4	Socratic Dialogue Engine	AI asks structured questions to test an argument.
+173	4	Philosophical Classifier	Classify arguments by philosophical tradition.
+174	4	Ethics Argument Evaluator	Detect unsupported premises and logical weaknesses.
+175	4	Moral Reasoning Benchmark	Test AI's reasoning across ethical scenarios.
+176	4	AI Moral Reasoning Benchmark	Compare different LLMs on ethical reasoning.
+177	4	Philosophical Bias Detector	Detect systematic philosophical assumptions in AI outputs.
+178	4	AI Ethical Consistency Tester	Test whether AI applies principles consistently.
+179	4	Moral Trade-off Optimizer	Find solutions under competing ethical objectives.
+180	4	AI Value Alignment Simulator	Study how agents behave under different value specifications.
+181	4	Multi-Agent Ethics	Let AI agents with different ethical systems interact.
+182	4	AI Rights Simulator	Explore hypothetical machine-rights scenarios.
+183	4	Machine Agency Model	Explore when an artificial system can be treated as an agent.
+184	4	Computational Justice Model	Formalize competing theories of justice.
+185	4	Ethical Policy Optimizer	Optimize policies under multiple ethical objectives.
+186	4	Moral Uncertainty Engine	Compare actions when moral probabilities are uncertain.
+187	4	AI Constitutional Ethics	Test AI decisions against constitutional principles.
+188	4	Computational Social Contract	Simulate citizens agreeing on political institutions.
+189	4	Preference Aggregator	Combine conflicting individual preferences.
+190	4	Collective Preference Simulator	Study how groups form collective choices.
+191	4	Voting Paradox Simulator	Demonstrate paradoxes in collective choice.
+192	4	Arrow's Theorem Demo	Interactive demonstration of Arrow-style voting problems.
+193	4	Condorcet Simulator	Explore cyclical group preferences.
+194	4	Prisoner's Dilemma Lab	Experiment with cooperation and defection.
+195	4	Tragedy of Commons	Simulate overuse of shared resources.
+196	4	Public Goods Game	Study cooperation in shared-resource problems.
+197	4	Ultimatum Game	Simulate bargaining and fairness.
+198	4	Dictator Game	Study distribution preferences.
+199	4	Computational Political Philosophy Lab	Combine political philosophy with simulations.
+200	4	AI Ethics Research Platform	Benchmark and experiment with AI ethical reasoning.
+201	5	Prisoner's Dilemma Game	Play repeated cooperation games.
+202	5	Nash Calculator	Calculate equilibrium in simple games.
+203	5	Auction Simulator	Compare auction mechanisms.
+204	5	Voting Game	Explore strategic voting.
+205	5	Market Competition	Simulate firms competing for customers.
+206	5	Monopoly Simulator	Explore monopoly pricing and welfare.
+207	5	Duopoly Simulator	Model two competing firms.
+208	5	Bargaining Simulator	Study negotiation outcomes.
+209	5	Negotiation Game	Let players negotiate over resources.
+210	5	Public Goods Game	Simulate free-riding and cooperation.
+211	5	Iterated Prisoner's Dilemma	Compare strategies over repeated games.
+212	5	Evolutionary Strategies	Study which strategies survive.
+213	5	Nash Finder	Automatically find equilibria in games.
+214	5	Auction Strategy Model	Optimize bidding strategies.
+215	5	Market Entry Game	Study when firms enter markets.
+216	5	Price Competition	Model firms choosing prices.
+217	5	Oligopoly Simulator	Simulate multiple competing firms.
+218	5	Labor Market Game	Model employer-worker bargaining.
+219	5	Trade Negotiation	Simulate countries negotiating trade.
+220	5	International Relations Game	Model strategic interactions between states.
+221	5	Arms Race Simulator	Model strategic military competition.
+222	5	Climate Negotiation	Simulate countries negotiating emissions.
+223	5	Sanctions Game	Model sanctions and responses.
+224	5	Tariff Negotiation	Simulate trade bargaining.
+225	5	Coalition Game	Explore coalition formation.
+226	5	RL Prisoner's Dilemma	Train agents to learn strategies.
+227	5	Multi-Agent Market	Let AI agents compete in markets.
+228	5	AI Negotiation	Train agents to negotiate.
+229	5	AI Auction Agents	Create competing AI bidders.
+230	5	AI Trading Competition	Compare algorithmic trading agents in a controlled environment.
+231	5	Campaign Competition	Simulate competing political campaigns.
+232	5	AI Coalition Formation	Let agents form political coalitions.
+233	5	AI International Relations	Simulate diplomatic interactions.
+234	5	AI Arms Race	Multi-agent strategic competition simulation.
+235	5	AI Climate Negotiation	AI countries negotiate emissions.
+236	5	AI Trade War	Simulate tariff escalation.
+237	5	AI Sanctions	Simulate sanctions and adaptation.
+238	5	AI Bargaining Agents	Compare negotiation strategies.
+239	5	Evolutionary Political Agents	Political strategies evolve over generations.
+240	5	Multi-Agent Democracy	AI citizens vote and form parties.
+241	5	Multi-Agent Economy	AI households and firms interact.
+242	5	Agent Welfare System	Simulate welfare policy with individual agents.
+243	5	Agent Labor Market	AI workers and firms match in a labor market.
+244	5	Agent Housing Market	AI households compete for housing.
+245	5	Agent Tax System	Simulate taxation across an artificial population.
+246	5	Agent Voting System	Model strategic voting.
+247	5	Agent Migration Model	Simulate migration decisions.
+248	5	AI Geopolitics Simulator	Multi-agent countries interact strategically.
+249	5	AI Society Simulator	Build an artificial society of interacting agents.
+250	5	Artificial Society Lab	Research platform for computational social science.
+251	6	Social Mobility Dashboard	Explore movement between socioeconomic classes.
+252	6	Education Inequality Dashboard	Compare educational outcomes across groups.
+253	6	Gender Gap Dashboard	Analyze gender differences across indicators.
+254	6	Health Inequality Dashboard	Visualize health disparities.
+255	6	Digital Divide Dashboard	Explore differences in technology access.
+256	6	Poverty Map	Map poverty across regions.
+257	6	Migration Map	Visualize migration flows.
+258	6	Refugee Explorer	Explore refugee movements and trends.
+259	6	Population Pyramid	Generate demographic pyramids.
+260	6	Demographic Transition	Visualize demographic changes over time.
+261	6	Social Mobility Predictor	Predict socioeconomic mobility.
+262	6	Poverty Risk Model	Estimate poverty risk using socioeconomic variables.
+263	6	Education Predictor	Predict educational outcomes.
+264	6	Dropout Model	Identify factors associated with school dropout.
+265	6	Employment Mobility	Model movement between jobs/income classes.
+266	6	Migration Predictor	Model migration using economic/demographic data.
+267	6	Urbanization Model	Model movement from rural to urban areas.
+268	6	Population Forecast	Forecast population changes.
+269	6	Demographic Simulator	Simulate births, deaths and migration.
+270	6	Social Inequality Simulator	Simulate inequality under different policies.
+271	6	Crime Data Explorer	Analyze geographic and temporal crime trends.
+272	6	Public Health Inequality	Study health outcomes across socioeconomic groups.
+273	6	Education Policy Simulator	Test hypothetical education policies.
+274	6	Housing Policy Simulator	Explore housing interventions.
+275	6	Migration Policy Simulator	Model effects of migration restrictions.
+276	6	Social Mobility Network	Represent social mobility as a graph.
+277	6	Poverty Prediction System	ML system for poverty-risk estimation.
+278	6	AI Education Advisor	Evaluate potential education interventions.
+279	6	AI Housing Advisor	Compare housing policies.
+280	6	AI Migration Advisor	Analyze migration policy trade-offs.
+281	6	AI Urban Planner	Simulate urban development.
+282	6	Inequality Forecast	Forecast inequality trends.
+283	6	Demographic Shock Simulator	Model sudden demographic changes.
+284	6	Population Policy Simulator	Compare population policies.
+285	6	AI Public Health Model	Analyze health-policy interventions.
+286	6	AI Welfare Optimizer	Optimize social-welfare allocation.
+287	6	Polarization Network	Simulate polarization in social networks.
+288	6	Echo Chamber Simulator	Model formation of information bubbles.
+289	6	Information Bubble Detector	Detect clustered information exposure.
+290	6	Social Influence Predictor	Model how people influence each other.
+291	6	Social Policy Evaluator	Compare social-policy outcomes.
+292	6	Computational Sociology Platform	Tools for computational social research.
+293	6	Digital Society Simulator	Simulate a technology-dependent society.
+294	6	Social Cohesion Index	Build a measurable social-cohesion indicator.
+295	6	Institutional Trust Model	Analyze determinants of institutional trust.
+296	6	Social Trust Model	Model interpersonal/institutional trust.
+297	6	AI Social Researcher	AI assistant for social-science research.
+298	6	Digital Society Lab	Research platform for digital society.
+299	6	Social Policy Lab	Experiment with social-policy models.
+300	6	Computational Society	Full artificial society simulation.
+301	7	Economic Data API	API serving cleaned economic indicators.
+302	7	Political Data API	API for political datasets.
+303	7	Policy Search Engine	Search policies using semantic retrieval.
+304	7	Government Dataset Browser	Explore government datasets in one interface.
+305	7	Election API	Standardize historical election data.
+306	7	Parliamentary API	Query parliamentary information.
+307	7	Economic Indicator API	Serve standardized macroeconomic indicators.
+308	7	Political News Aggregator	Aggregate political news into one dashboard.
+309	7	Policy RSS Aggregator	Track new policy documents.
+310	7	Open Government Dashboard	Unified government-data visualization.
+311	7	Election Database	Structured historical election database.
+312	7	Political Knowledge Graph	Connect politicians, parties, policies and events.
+313	7	Economic Knowledge Graph	Connect economic indicators and events.
+314	7	Government Knowledge Graph	Connect agencies, laws and policies.
+315	7	Treaty Knowledge Graph	Map international agreements.
+316	7	Political Relationship Graph	Model political relationships.
+317	7	Corporate-Government Graph	Analyze relationships between companies and governments.
+318	7	Lobbying Database	Structured database of lobbying relationships.
+319	7	Policy Dependency Graph	Identify policies dependent on other policies.
+320	7	Constitutional Knowledge Graph	Connect constitutional concepts and provisions.
+321	7	Semantic Policy Search	Search policies by meaning rather than keywords.
+322	7	Cross-Country Policy Search	Find similar policies across countries.
+323	7	Historical Policy Database	Build a searchable policy archive.
+324	7	Government Data Pipeline	Automatically ingest and clean government datasets.
+325	7	Data Quality Checker	Detect missing, inconsistent and suspicious data.
+326	7	Political Intelligence Dashboard	Monitor political events and indicators.
+327	7	Policy Monitoring System	Automatically track policy changes.
+328	7	Global Legislation Tracker	Track legislation across jurisdictions.
+329	7	Economic Shock Monitor	Detect unusual macroeconomic events.
+330	7	Political Event Detector	Extract political events from news.
+331	7	Parliamentary Researcher	Automatically search parliamentary records.
+332	7	AI Government Analyst	Ask questions across government datasets.
+333	7	Policy Comparison Engine	Compare policies across countries.
+334	7	Global Policy Graph	Knowledge graph of global policies.
+335	7	Political Entity Resolution	Identify the same political entities across datasets.
+336	7	Economic Entity Resolution	Resolve inconsistent economic entities.
+337	7	Historical Event Graph	Build a graph of historical political events.
+338	7	Legislative AI Agent	AI research agent for legislation.
+339	7	Open Government Intelligence	Open-source government research platform.
+340	7	PPE Knowledge Graph	Connect political, philosophical and economic knowledge.
+341	8	Global Inequality Engine	Model inequality across countries, generations and socioeconomic groups.
+342	8	Policy Counterfactual Engine	Ask “what if?” questions about historical or proposed policies.
+343	8	Democracy Simulator	Simulate voters, parties, institutions, media and elections.
+344	8	AI Economist	AI agents operate businesses, consume resources, earn income and respond to policy.
+345	8	AI Parliament	AI representatives debate, amend and vote on legislation.
+346	8	AI Constitutional Convention	AI agents design competing constitutional systems.
+347	8	AI United Nations	Countries represented by agents negotiate treaties.
+348	8	Global Trade Simulator	Model countries, firms, tariffs, trade and economic shocks.
+349	8	Climate Politics Simulator	Simulate international climate negotiations.
+350	8	Global Sanctions Simulator	Study economic and geopolitical consequences of sanctions.
+351	8	AI Welfare State	Optimize welfare systems under competing objectives.
+352	8	Automated Policy Lab	Automatically collect research and compare policy proposals.
+353	8	Political Forecasting Platform	Forecast elections, instability and political outcomes.
+354	8	AI Geopolitical Risk Engine	Estimate geopolitical risk from economic and political indicators.
+355	8	Global Migration Simulator	Simulate migration based on economics, demographics and policy.
+356	8	AI Public Opinion Model	Simulate how public opinion changes.
+357	8	Computational Ideology Engine	Map political ideology using NLP and behavioral data.
+358	8	AI Propaganda Laboratory	Study how different communication frames affect simulated populations.
+359	8	Democracy Stress Test	Test political institutions against economic/social shocks.
+360	8	Economic Crisis Simulator	Simulate inflation, unemployment, banking crises and government responses.
+361	8	Digital Nation	Build a complete artificial country with citizens, markets, politics and institutions.
+362	8	Artificial Society	Thousands of agents form communities, markets and political systems.
+363	8	PPE Research OS	One platform for datasets, papers, policies, simulations and AI research.
+364	8	PPE × CS Grand Simulation	Economy, politics, society and AI agents interact in one world.
+365	8	Digital Civilization	A persistent artificial civilization where economic, political and philosophical systems evolve.

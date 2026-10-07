@@ -32,10 +32,19 @@ projects/NNN-slug/
    verified by hand). The app smoke test uses `streamlit.testing.v1.AppTest.from_file("app.py").run()` and
    asserts `not at.exception`. Tests must pass offline.
 6. **Do not edit `core/`** or other projects. If you need a helper that belongs in `core/`, put it in your
-   own module and mention it in your final message.
-7. **No git operations.** The maintainer commits.
+   own module and mention it in your final message. (This is for a worker building one project in parallel.
+   The top-level session that owns the repo may change `core/`, and must then run the whole test suite.)
+7. **No git operations.** The maintainer commits. (Same scope as rule 6: the top-level session commits, one
+   commit per project, message `Add #N Title`.)
 8. **Network policy.** A 403/407 from the proxy is an organisation policy decision. Do not route around it.
    Report the blocked host and build the best version with the data you can reach.
+9. **Browser-ready.** Every project's app also runs in the visitor's browser (Pyodide, via stlite) on the
+   portfolio site, so build for that from the start. Use pandas, numpy, plotly, scipy, statsmodels or other
+   packages Pyodide ships; no `subprocess`, `multiprocessing`, threads or sockets; no network access while the app
+   runs (everything it needs is in the committed `data/` caches); keep one interaction under a few seconds of
+   single-threaded compute; keep the data the app reads small. If the app really cannot run in a browser, say why
+   in the README and tell the maintainer. See `docs/BROWSER_APPS.md` in the site repo
+   (https://github.com/varad-patel/varad-patel.github.io).
 
 ## Streamlit app conventions
 

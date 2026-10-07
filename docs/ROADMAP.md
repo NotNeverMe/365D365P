@@ -14,7 +14,7 @@ calculations, and a house style for apps and READMEs.
 PolicySim is built in slices, each one shippable on its own. The first slice is the engine; the app, data
 calibration for more countries and the behavioural layer follow.
 
-### Slice 1: the engine (started)
+### Slice 1: the engine (not started)
 
 * **Synthetic population calibrated to published data.** No household microdata is in the repo, so the
   population is generated from a distribution fitted to a country's World Bank quintile income shares and

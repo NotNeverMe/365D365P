@@ -4,6 +4,8 @@
 The rule for every project: real data or real users, a question stated up front, a check that the result is
 right, and an honest page on what it cannot tell you.
 
+Gallery and live site: **https://varad-patel.github.io/365projects/** (code: [varad-patel.github.io](https://github.com/varad-patel/varad-patel.github.io)).
+
 This repo is a monorepo. Shared code (data loaders with caching, statistics, charts, UI helpers) lives in
 [`core/`](core), and each project lives in its own folder under [`projects/`](projects) with its own README,
 analysis module, Streamlit app and tests.
