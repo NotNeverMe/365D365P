@@ -1,0 +1,30 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "projects-365"
+version = "0.1.0"
+description = "365 projects at the intersection of economics, politics, philosophy and computer science."
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "pandas>=2.2",
+    "numpy>=1.26",
+    "requests>=2.31",
+    "plotly>=5.20",
+    "streamlit>=1.35",
+    "scipy>=1.12",
+    "statsmodels>=0.14",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8"]
+
+[tool.setuptools]
+packages = ["core"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests", "projects"]
+addopts = "-q"
+filterwarnings = ["ignore::DeprecationWarning"]
