@@ -9,18 +9,27 @@ PALETTE = ["#2563eb", "#dc2626", "#16a34a", "#d97706", "#7c3aed", "#0891b2", "#b
 
 
 def theme(fig: go.Figure, *, title: str | None = None, yaxis_title: str | None = None, height: int = 460) -> go.Figure:
-    """Apply the repo's house style to a figure and return it."""
+    """Apply the repo's house style to a figure and return it.
+
+    The title sits at the very top of the figure and the legend sits just above
+    the plot area, so the top margin is sized for whichever of the two are present.
+    The legend gets room for two rows because eight series wrap.
+    """
+    has_legend = fig.layout.showlegend is not False and len(fig.data) > 1
+    top = 16 + (36 if title else 0) + (48 if has_legend else 0)
     fig.update_layout(
         template="plotly_white",
         colorway=PALETTE,
         height=height,
-        margin=dict(l=40, r=20, t=60 if title else 30, b=40),
+        margin=dict(l=40, r=20, t=top, b=40),
         legend=dict(orientation="h", yanchor="bottom", y=1.02, xanchor="left", x=0),
         hovermode="x unified",
         font=dict(family="Inter, system-ui, sans-serif", size=13),
     )
     if title:
-        fig.update_layout(title=dict(text=title, x=0))
+        fig.update_layout(
+            title=dict(text=title, x=0, xanchor="left", y=1, yref="container", yanchor="top", pad=dict(t=8), font=dict(size=16))
+        )
     if yaxis_title:
         fig.update_yaxes(title_text=yaxis_title)
     return fig
