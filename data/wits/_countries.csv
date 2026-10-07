@@ -1,0 +1,267 @@
+iso3,name,is_group
+AFG,Afghanistan,False
+ALB,Albania,False
+DZA,Algeria,False
+ASM,American Samoa,False
+AND,Andorra,False
+AGO,Angola,False
+AIA,Anguila,False
+ATA,Antarctica,False
+ATG,Antigua and Barbuda,False
+ARG,Argentina,False
+ARM,Armenia,False
+ABW,Aruba,False
+AUS,Australia,False
+AUT,Austria,False
+AZE,Azerbaijan,False
+BHS,"Bahamas, The",False
+BHR,Bahrain,False
+BGD,Bangladesh,False
+BRB,Barbados,False
+BLR,Belarus,False
+BEL,Belgium,False
+BLX,Belgium-Luxembourg,False
+BLZ,Belize,False
+BEN,Benin,False
+BMU,Bermuda,False
+BTN,Bhutan,False
+BOL,Bolivia,False
+BES,Bonaire,False
+BIH,Bosnia and Herzegovina,False
+BWA,Botswana,False
+BVT,Bouvet Island,False
+BAT,Br. Antr. Terr,False
+BRA,Brazil,False
+IOT,British Indian Ocean Ter.,False
+VGB,British Virgin Islands,False
+BRN,Brunei,False
+BGR,Bulgaria,False
+BUN,Bunkers,False
+BFA,Burkina Faso,False
+BDI,Burundi,False
+KHM,Cambodia,False
+CMR,Cameroon,False
+CAN,Canada,False
+CPV,Cape Verde,False
+CYM,Cayman Islands,False
+CAF,Central African Republic,False
+TCD,Chad,False
+CHL,Chile,False
+CHN,China,False
+CXR,Christmas Island,False
+CCK,Cocos (Keeling) Islands,False
+COL,Colombia,False
+COM,Comoros,False
+ZAR,"Congo, Dem. Rep.",False
+COG,"Congo, Rep.",False
+COK,Cook Islands,False
+CRI,Costa Rica,False
+CIV,Cote d'Ivoire,False
+HRV,Croatia,False
+CUB,Cuba,False
+CUW,Curaçao,False
+CYP,Cyprus,False
+CZE,Czech Republic,False
+CSK,Czechoslovakia,False
+DNK,Denmark,False
+DJI,Djibouti,False
+DMA,Dominica,False
+DOM,Dominican Republic,False
+EAS,East Asia & Pacific,True
+TMP,East Timor,False
+ECU,Ecuador,False
+EGY,"Egypt, Arab Rep.",False
+SLV,El Salvador,False
+GNQ,Equatorial Guinea,False
+ERI,Eritrea,False
+EST,Estonia,False
+SWZ,Eswatini,False
+ETH,Ethiopia(excludes Eritrea),False
+ETF,Ethiopia(includes Eritrea),False
+ECS,Europe & Central Asia,True
+FRO,Faeroe Islands,False
+FLK,Falkland Island,False
+FJI,Fiji,False
+FIN,Finland,False
+SDN,Fm Sudan,False
+ATF,Fr. So. Ant. Tr,False
+FRA,France,False
+FRE,Free Zones,False
+GUF,French Guiana,False
+PYF,French Polynesia,False
+GAB,Gabon,False
+GMB,"Gambia, The",False
+GEO,Georgia,False
+DDR,German Democratic Republic,False
+DEU,Germany,False
+GHA,Ghana,False
+GIB,Gibraltar,False
+GRC,Greece,False
+GRL,Greenland,False
+GRD,Grenada,False
+GLP,Guadeloupe,False
+GUM,Guam,False
+GTM,Guatemala,False
+GIN,Guinea,False
+GNB,Guinea-Bissau,False
+GUY,Guyana,False
+HTI,Haiti,False
+HMD,Heard Island and McDonald Isla,False
+VAT,Holy See,False
+HND,Honduras,False
+HKG,"Hong Kong, China",False
+HUN,Hungary,False
+ISL,Iceland,False
+IND,India,False
+IDN,Indonesia,False
+IRN,"Iran, Islamic Rep.",False
+IRQ,Iraq,False
+IRL,Ireland,False
+ISR,Israel,False
+ITA,Italy,False
+JAM,Jamaica,False
+JPN,Japan,False
+JOR,Jordan,False
+KAZ,Kazakhstan,False
+KEN,Kenya,False
+KIR,Kiribati,False
+PRK,"Korea, Dem. Rep.",False
+KOR,"Korea, Rep.",False
+KWT,Kuwait,False
+KGZ,Kyrgyz Republic,False
+LAO,Lao PDR,False
+LCN,Latin America & Caribbean,True
+LVA,Latvia,False
+LBN,Lebanon,False
+LSO,Lesotho,False
+LBR,Liberia,False
+LBY,Libya,False
+LTU,Lithuania,False
+LUX,Luxembourg,False
+MAC,Macao,False
+MDG,Madagascar,False
+MWI,Malawi,False
+MYS,Malaysia,False
+MDV,Maldives,False
+MLI,Mali,False
+MLT,Malta,False
+MHL,Marshall Islands,False
+MTQ,Martinique,False
+MRT,Mauritania,False
+MUS,Mauritius,False
+MYT,Mayotte,False
+MEX,Mexico,False
+FSM,"Micronesia, Fed. Sts.",False
+MEA,"Middle East, North Africa, Afghanistan & Pakistan",True
+MDA,Moldova,False
+MCO,Monaco,False
+MNG,Mongolia,False
+MNT,Montenegro,False
+MSR,Montserrat,False
+MAR,Morocco,False
+MOZ,Mozambique,False
+MMR,Myanmar,False
+NAM,Namibia,False
+NRU,Naoero,False
+NPL,Nepal,False
+NLD,Netherlands,False
+ANT,Netherlands Antilles,False
+NZE,Neutral Zone,False
+NCL,New Caledonia,False
+NZL,New Zealand,False
+NIC,Nicaragua,False
+NER,Niger,False
+NGA,Nigeria,False
+NIU,Niue,False
+NFK,Norfolk Island,False
+NAC,North America,True
+MKD,North Macedonia,False
+MNP,Northern Mariana Islands,False
+NOR,Norway,False
+999,Not Applicable,False
+PSE,Occ.Pal.Terr,False
+OMN,Oman,False
+OAS,"Other Asia, nes",False
+PCE,Pacific Islands,False
+PAK,Pakistan,False
+PLW,Palau,False
+PAN,Panama,False
+PNG,Papua New Guinea,False
+PRY,Paraguay,False
+PER,Peru,False
+PHL,Philippines,False
+PCN,Pitcairn,False
+POL,Poland,False
+PRT,Portugal,False
+QAT,Qatar,False
+REU,Reunion,False
+ROM,Romania,False
+RUS,Russian Federation,False
+RWA,Rwanda,False
+BLM,Saint Barthélemy,False
+SHN,Saint Helena,False
+SXM,Saint Maarten (Dutch part),False
+SPM,Saint Pierre and Miquelon,False
+WSM,Samoa,False
+SMR,San Marino,False
+STP,Sao Tome and Principe,False
+SAU,Saudi Arabia,False
+SEN,Senegal,False
+SER,"Serbia, FR(Serbia/Montenegro)",False
+SYC,Seychelles,False
+SLE,Sierra Leone,False
+SGP,Singapore,False
+SVK,Slovak Republic,False
+SVN,Slovenia,False
+SLB,Solomon Islands,False
+SOM,Somalia,False
+ZAF,South Africa,False
+SAS,South Asia,True
+SGS,South Georgia and the South Sa,False
+SSD,South Sudan,False
+SVU,Soviet Union,False
+ESP,Spain,False
+SPE,Special Categories,False
+LKA,Sri Lanka,False
+KNA,St. Kitts and Nevis,False
+LCA,St. Lucia,False
+VCT,St. Vincent and the Grenadines,False
+SSF,Sub-Saharan Africa,True
+SUD,Sudan,False
+SUR,Suriname,False
+SWE,Sweden,False
+CHE,Switzerland,False
+SYR,Syrian Arab Republic,False
+TJK,Tajikistan,False
+TZA,Tanzania,False
+THA,Thailand,False
+TGO,Togo,False
+TKL,Tokelau,False
+TON,Tonga,False
+TTO,Trinidad and Tobago,False
+TUN,Tunisia,False
+TUR,Turkey,False
+TKM,Turkmenistan,False
+TCA,Turks and Caicos Isl.,False
+TUV,Tuvalu,False
+UGA,Uganda,False
+UKR,Ukraine,False
+ARE,United Arab Emirates,False
+GBR,United Kingdom,False
+USA,United States,False
+UMI,United States Minor Outlying I,False
+UNS,Unspecified,False
+URY,Uruguay,False
+USP,Us Msc.Pac.I,False
+UZB,Uzbekistan,False
+VUT,Vanuatu,False
+VEN,Venezuela,False
+VNM,Vietnam,False
+WLF,Wallis and Futura Isl.,False
+ESH,Western Sahara,False
+WLD,World,True
+YEM,Yemen,False
+YDR,Yemen Democratic,False
+YUG,"Yugoslavia,FR(Serbia/Montenegr",False
+ZMB,Zambia,False
+ZWE,Zimbabwe,False
