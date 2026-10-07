@@ -43,4 +43,4 @@ def series(series_id: str, *, refresh: bool = False) -> pd.Series:
 
 def frame(ids: dict[str, str], *, refresh: bool = False) -> pd.DataFrame:
     """Several series side by side; keys of ``ids`` become the column names."""
-    return pd.concat({name: series(sid, refresh=refresh) for name, sid in ids.items()}, axis=1).sort_index()
+    return pd.concat({name: series(sid, refresh=refresh) for name, sid in ids.items()}, axis=1, sort=True)

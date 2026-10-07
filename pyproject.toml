@@ -13,7 +13,7 @@ dependencies = [
     "numpy>=1.26",
     "requests>=2.31",
     "plotly>=5.20",
-    "streamlit>=1.35",
+    "streamlit>=1.51",  # apps use width="stretch" on charts (added in 1.51)
     "scipy>=1.12",
     "statsmodels>=0.14",
 ]

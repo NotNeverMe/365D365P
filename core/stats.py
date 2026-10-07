@@ -22,7 +22,19 @@ def rebase(series: pd.Series, base: float = 100.0) -> pd.Series:
 
 
 def yoy_change(series: pd.Series, periods: int = 12) -> pd.Series:
-    """Percentage change over ``periods`` observations (12 for monthly data)."""
+    """Percentage change versus the same date one year earlier.
+
+    With a DatetimeIndex the comparison is calendar based, so a missing month
+    (for example the October 2025 US CPI, which was never published) yields NaN
+    for that month and for the same month a year later, instead of silently
+    shifting every later value by one position. With any other index it falls
+    back to a positional change over ``periods`` observations.
+    """
+    if isinstance(series.index, pd.DatetimeIndex):
+        prior = series.copy()
+        prior.index = prior.index + pd.DateOffset(years=1)
+        prior = prior[~prior.index.duplicated()]
+        return (series / prior.reindex(series.index) - 1.0) * 100.0
     return series.pct_change(periods=periods) * 100.0
 
 

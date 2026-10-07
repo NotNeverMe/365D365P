@@ -41,6 +41,7 @@ projects/NNN-slug/
 
 * Start with `core.ui.page(title, caption)`. Use `core.ui.country_picker`, `core.ui.year_range`,
   `core.ui.download` and end with `core.ui.sources(...)`.
+* Pass `width="stretch"` to charts and tables (Streamlit 1.51+; `use_container_width` is deprecated).
 * Charts come from `core.charts` (`lines`, `bars`, `choropleth`, `theme`) or plotly directly, then `charts.theme(fig)`.
 * Wrap data loading in `@st.cache_data`.
 * `app.py` imports its module with `from <module> import ...` (Streamlit puts the script's folder on `sys.path`).
@@ -78,7 +79,7 @@ Honest list: coverage gaps, definitional issues, what this cannot tell you.
 
 * World Bank Indicators API (through `core.worldbank`). Examples: `NY.GDP.MKTP.KD.ZG` growth, `FP.CPI.TOTL.ZG`
   inflation, `SL.UEM.TOTL.ZS` unemployment, `SI.POV.GINI`, `NY.GDP.PCAP.PP.KD`, `GC.DOD.TOTL.GD.ZS` central
-  government debt, `NE.EXP.GNFS.ZS` / `NE.IMP.GNFS.ZS` trade, `PA.NUS.PPP`, `PA.NUS.PPPC.RF`.
+  government debt, `NE.EXP.GNFS.ZS` / `NE.IMP.GNFS.ZS` trade, `PA.NUS.PPP`, `PA.NUS.GDP.PLI` (price level index).
   Browse codes at https://data.worldbank.org/indicator.
 * FRED CSV endpoint (through `core.fred`): daily exchange rates `DEXUSEU`, `DEXJPUS`, `DEXUSUK`, `DEXINUS`,
   `DEXCHUS`; US CPI components such as `CPIAUCSL`, `CPIFABSL`, `CUSR0000SAH1`; policy rates `FEDFUNDS`, `ECBDFR`.
@@ -87,3 +88,7 @@ Honest list: coverage gaps, definitional issues, what this cannot tell you.
 
 Year columns from the World Bank can run to 2025 for some indicators and stop years earlier for others.
 Always compute coverage (first and last year with data, share of countries covered) and show it.
+
+FRED notes from building the first 15 projects: series ids can 404 or go stale without warning (check the last
+date of every series you load), and the US CPI has no observation for October 2025, so use calendar-based
+changes (`core.stats.yoy_change` is calendar-based on a DatetimeIndex).
